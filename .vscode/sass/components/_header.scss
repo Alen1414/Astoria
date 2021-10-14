@@ -1,15 +1,25 @@
   .main-nav__logo {
     color: var( --second-text-color);
-     
-           font-weight: bold;
-           font-size: 24px;
-           line-height: 1.20; 
-           text-decoration: none;
+    @include font($fz:26px, $fw:900, $ls:0.03em);
+           line-height: 1.25; 
+          
           
     
            @media screen and (min-width:1200px){
            margin-right: 93px;
            }
           }
-          
-          
+
+          .nav-navigacion{
+          display: flex;
+          justify-content: center;
+            
+          }
+          .nav-contact{
+            @include font($fz:16px, $fw:700, $ls:0.02em);
+
+          }
+          .site-nav{
+            display: flex;
+            justify-content: center;
+          }

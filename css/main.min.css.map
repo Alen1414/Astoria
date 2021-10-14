@@ -8,7 +8,8 @@
         "../.vscode/sass/utils/_variables.scss",
         "../.vscode/sass/utils/_reset.scss",
         "../.vscode/sass/utils/_hidden.scss",
-        "../.vscode/sass/components/_header.scss"
+        "../.vscode/sass/components/_header.scss",
+        "../.vscode/sass/components/_footer.scss"
     ],
     "names": [],
     "file": "main.min.css"
