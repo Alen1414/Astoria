@@ -1,0 +1,30 @@
+  .header-logo__settings{
+    color: var( --second-text-color);
+
+    @include font($fz:26px, $fw:900, $ls:0.03em);
+    line-height: 1.25; 
+    text-align: center;    
+          
+    
+           @media screen and (min-width:1200px){
+           
+           }
+          }
+
+          .nav-navigacion{
+      
+          // .nav-contact{
+          //   @include font($fz:16px, $fw:700, $ls:0.02em);
+          //   display: flex;
+          //  justify-content: center;
+          //  align-items: center;
+           
+.header{
+  background-color: red($color: #000000);
+}
+          
+        .main-nav{
+          display: flex;
+          flex-direction: row;
+          background-color: green;
+        }
