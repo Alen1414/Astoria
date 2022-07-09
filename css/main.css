@@ -25,17 +25,6 @@
   }
 }
 
-.header-logo {
-  background-color: red;
-}
-
-:root {
-  --primary-text-color:  darkgrey;
-  --second-text-color: #f12a2ae1;
-  --background-second-color: hsl(240, 2%, 40%);
-  --background-first-color:  #E5E5E5;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #1d1a1a;
@@ -101,5 +90,16 @@ button {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+:root {
+  --primary-text-color:  darkgrey;
+  --second-text-color: #f12a2ae1;
+  --background-second-color: hsl(240, 2%, 40%);
+  --background-first-color:  #E5E5E5;
+}
+
+.main-nav {
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */
