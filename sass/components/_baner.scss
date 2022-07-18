@@ -1,0 +1,91 @@
+.baner {
+  background-color: var(--background-second-color);
+  padding-top: 118px;
+  padding-bottom: 198px;
+  margin-bottom: 60px;
+
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/mob-vers/hero1x-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/mob-vers/hero2x-min.jpg);
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/tablet/ihero1x-min.jpg);
+  }
+  @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/tablet/ihero2x-min.jpg);
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 94px;
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/comp/comphero1x.jpg);
+  }
+  @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/comp/comphero2x.jpg);
+  }
+}
+.baner_text {
+  @include font(26px, 700, 0.06em);
+
+  display: block;
+  text-align: center;
+
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    @include font($fz: 26px, $fw: 900, $ls: 0.06em);
+    line-height: 1.6;
+    max-width: 360px;
+  }
+  @media screen and (min-width: 1200px) {
+    @include font($fz: 44px, $fw: 900, $ls: 0.06em) max-width: 650px;
+  }
+}

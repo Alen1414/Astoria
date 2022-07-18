@@ -1,9 +1,12 @@
-@import "./utils/_container.scss";
-@import "./utils/_reset.scss";
+@import "./base/container";
+@import "./base/reset";
+@import "./base/button";
 @import "./utils/_hidden.scss";
 @import "./utils/_variables.scss";
 @import "./utils/_mixins.scss";
 
 @import "./components/_header.scss";
+
+@import "./components/baner";
 
 @import "./components/footer.scss";
