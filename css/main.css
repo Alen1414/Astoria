@@ -89,6 +89,7 @@ h6 {
 :root {
   --primary-text-color: darkgrey;
   --second-text-color: #f12a2ae1;
+  --white-color-text: rgb(247, 241, 241);
   --background-first-color: #f12a2ae1;
   --background-second-color: hsl(240, 2%, 40%);
 }
@@ -157,13 +158,13 @@ h6 {
     margin-left: auto;
     margin-right: auto;
     height: 600px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/comp/comphero1x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images//comp/foto1.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .baner {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/comp/comphero2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/comp/foto1.jpg);
   }
 }
 
@@ -177,6 +178,7 @@ h6 {
   margin-bottom: 30px;
   line-height: 1.4;
   text-transform: uppercase;
+  color: var(--white-color-text);
 }
 
 @media screen and (min-width: 768px) {
